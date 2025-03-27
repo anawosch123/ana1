@@ -1,0 +1,74 @@
+body{
+    background-color: #fffafa;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+header { 
+    display: flex;
+    width: 100%;
+    background-color: rgb(161, 158, 158);
+    padding: 1rem;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+} 
+footer{
+    background-color: rgb(243, 107, 107);
+    color: rgb(0, 0, 0);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media screen and (min-width: 1024){
+    .intro{
+        display: flex;
+    }
+}
+
+.imagens{
+    width: 290px;
+    display: block;
+    margin: 0 auto;
+
+}
+#Lmenu{
+    width:50px;
+}
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.lista{
+    display: none;
+    position: absolute;
+    top:100%;
+    background-color:#0f0f0f;
+    width:100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.check ~ .lista{
+    display: block;
+}
+#menu{
+    display:none;
+}
+.item{
+    padding: 12px 0;
+}
+ul li{
+    list-style: none;
+}
+#bo{
+    background-color: rgb(241, 62, 62);
+    color:rgb(12, 12, 12);
+    text-align: right;
+}
+.botaoChato{    position: relative;
+    right: 0px;
+    left: 18rem;}
+}
